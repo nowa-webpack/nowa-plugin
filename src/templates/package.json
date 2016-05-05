@@ -1,0 +1,24 @@
+{
+  "name": "nowa-<%- name %>",
+  "version": "<%- version %>",
+  "description": "<%- description %>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "<%- repository %>"
+  },
+  "keywords": [
+    "nowa",
+    "webpack",
+    "<%- name %>"
+  ],
+  "author": "<%- author %>",
+  "license": "MIT",
+  "homepage": "<%- homepage %>",
+  "peerDependencies": {
+    "nowa": "~1.0.0"
+  }
+}
