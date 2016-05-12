@@ -2,7 +2,7 @@
 * @Author: gbk <ck0123456@gmail.com>
 * @Date:   2016-04-21 17:34:00
 * @Last Modified by:   gbk
-* @Last Modified time: 2016-05-01 22:38:27
+* @Last Modified time: 2016-05-12 23:32:58
 */
 
 'use strict';
@@ -72,12 +72,12 @@ function makeFiles(data) {
     // real target file
     var target = source.replace(/^_/, '.');
 
-    // mkdirp
+    // ensure target dir exists
     if (target.indexOf(path.sep) !== -1) {
-      mkdirp(path.dirname(target));
+      mkdirp.sync(path.dirname(target));
     }
 
-    // write file
+    // real source file
     source = path.join(templateDir, source);
 
     try {
