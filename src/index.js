@@ -2,7 +2,7 @@
 * @Author: gbk <ck0123456@gmail.com>
 * @Date:   2016-04-21 17:34:00
 * @Last Modified by:   gbk
-* @Last Modified time: 2016-05-12 23:32:58
+* @Last Modified time: 2016-05-17 22:54:58
 */
 
 'use strict';
@@ -33,7 +33,10 @@ module.exports = {
     inquirer.prompt([{
       name: 'name',
       message: 'Plugin name(command name)',
-      default: name.replace(/^nowa\-/, '')
+      default: name.replace(/^nowa\-/, ''),
+      validate: function(name) {
+        return /^\w[\w\-]*\w$/.test(name) ? true : 'name is not valid';
+      }
     }, {
       name: 'description',
       message: 'Plugin description',
@@ -45,7 +48,10 @@ module.exports = {
     }, {
       name: 'version',
       message: 'Plugin version',
-      default: '1.0.0'
+      default: '1.0.0',
+      validate: function(version) {
+        return /^\d+\.\d+\.\d+([\.\-\w])*$/.test(version) ? true : 'version is not valid';
+      }
     }, {
       name: 'repository',
       message: 'Plugin repository',

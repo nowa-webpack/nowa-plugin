@@ -20,5 +20,5 @@ $ npm i nowa-<%- name %> -g
 ## Usage
 
 ```bash
-$ nowa help <%- name %>
+$ nowa <%- name %> --help
 ```

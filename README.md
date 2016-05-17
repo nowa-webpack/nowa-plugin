@@ -20,5 +20,5 @@ $ npm i nowa-plugin -g
 ## Usage
 
 ```bash
-$ nowa help plugin
+$ nowa plugin --help
 ```
