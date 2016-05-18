@@ -1,6 +1,6 @@
 {
   "name": "nowa-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "nowa plugin creator",
   "main": "index.js",
   "scripts": {

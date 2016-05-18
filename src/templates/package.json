@@ -18,6 +18,9 @@
   "author": "<%- author %>",
   "license": "MIT",
   "homepage": "<%- homepage %>",
+  "dependencies": {
+    "commander": "~2.9.0"
+  },
   "peerDependencies": {
     "nowa": "^1.0.0"
   }
