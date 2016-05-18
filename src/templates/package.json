@@ -19,6 +19,6 @@
   "license": "MIT",
   "homepage": "<%- homepage %>",
   "peerDependencies": {
-    "nowa": "~1.0.0"
+    "nowa": "^1.0.0"
   }
 }
