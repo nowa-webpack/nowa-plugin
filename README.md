@@ -9,13 +9,7 @@ nowa plugin creator
 ## Feature
 
 - nowa plugin creator
-
-## Install
-
-```bash
-$ npm i nowa
-$ npm i nowa-plugin -g
-```
+- it's a inner plugin of nowa
 
 ## Usage
 

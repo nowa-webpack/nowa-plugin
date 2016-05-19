@@ -13,8 +13,8 @@
 ## Install
 
 ```bash
-$ npm i nowa
-$ npm i nowa-<%- name %> -g
+$ npm i nowa -g
+$ nowa install <%- name %>
 ```
 
 ## Usage
