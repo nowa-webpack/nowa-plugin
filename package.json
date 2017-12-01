@@ -19,7 +19,7 @@
   "license": "MIT",
   "homepage": "https://github.com/nowa-webpack/nowa-plugin#readme",
   "dependencies": {
-    "ejs": "~2.4.1",
+    "ejs": "~2.5.5",
     "git-config": "0.0.7",
     "glob": "~7.0.3",
     "inquirer": "~1.0.2",
